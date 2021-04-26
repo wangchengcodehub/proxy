@@ -1,0 +1,28 @@
+POST http://localhost:8080/api/create
+Content-Type: application/json
+
+{
+  "SrcAddr": ":9941",
+  "DstAddr": "172.16.200.41:22"
+}
+
+###
+
+POST http://localhost:8080/api/delete
+Content-Type: application/json
+
+{
+  "SrcAddr": ":9941",
+  "DstAddr": "172.16.200.41:22"
+}
+
+###
+
+GET http://localhost:8080/api/query
+Accept: application/json
+
+###
+
+
+
+
